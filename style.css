@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+}
+.upper-part {
+display: flex;
+flex-direction: column;
+gap: 84px;
+background-color: #0e1a2e;
+color: white;
+padding: 12px 180px 48px 180px;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.header-logo {
+    color: white;
+    font-size: large;
+    font-weight: bold
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.website-presentation {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.website-presentation img {
+    height: 200px;
+    width: 50%;
+}
+.website-presentation-text {
+    width: 400px;
+    font-size: 12px;
+}
+
+.website-presentation-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.website-presentation-paragraph {
+    width: 305px;
+    margin: 0;
+    color: lightgray;
+}
+
+.sign-in-button {
+    color: white;
+    background-color: #0c78f2;
+    border-radius: 0.25rem;
+    margin: 10px 0;
+    border: none;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #0088ff;
+}
+
+.informations {
+    margin-bottom: 9rem;
+}
+.informations h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card-text {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;;
+    border: 4px;
+    border-style: solid;
+    border-color: #0c78f2;
+    border-radius: 1rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
