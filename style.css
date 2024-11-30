@@ -70,10 +70,13 @@ a {
     color: white;
     background-color: #0c78f2;
     border-radius: 0.25rem;
-    margin: 10px 0;
-    border: none;
     padding: 0.5rem 2rem;
     cursor: pointer;
+}
+
+.sign-in-button#top {
+    border: none;
+    margin: 10px 0;
 }
 
 .sign-in-button:hover {
@@ -114,6 +117,63 @@ a {
     border-color: #0c78f2;
     border-radius: 1rem;
     flex-shrink: 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.quote-content {
+    width: 1000px;
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    text-justify: auto;
+    font-weight: lighter;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c78f2;
+    border-radius: 0.5rem;
+    margin: 4rem 8rem;
+    padding: 2rem 8rem;
+}
+
+.call-to-action-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-to-action-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-text {
+    color: white;
+}
+
+
+
+.sign-in-button#bottom {
+    border: 2px solid white;
 }
 
 
